@@ -1,12 +1,36 @@
+body{
+	background: #FFDA9E;
+}
+
+a{
+color: #BABABA
+;
+}
+
 #container
 {
 	margin: 0 30px;
 	background: #fff;
+	
+		clear: left;
+	padding: 20px;
+	margin: 20px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px ;
+	-webkit-box-shadow: 0px 0px 6px #E86026;
+	box-shadow: 0px 0px 6px #000000;
+	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
+	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	opacity: 0.83;
+
 }
 
 #header
 {
-	background: #ccc;
+	background: #E86026;
 	padding: 20px;
 }
 
@@ -49,9 +73,9 @@
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	border-radius: 18px ;
+	-webkit-box-shadow: 0px 0px 6px #E86026;
+	box-shadow: 0px 0px 6px #E86026;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
@@ -75,8 +99,8 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #E86026;
+	box-shadow: 0px 0px 6px #E86026;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
@@ -88,7 +112,7 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #E86026;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
